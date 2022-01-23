@@ -79,7 +79,7 @@ def remove_folder(path):
 	else:
 		print("Unable to delete",path)
 
-#Remove Folder
+#Remove File
 def remove_file(path):
 
 	if not os.remove(path):
